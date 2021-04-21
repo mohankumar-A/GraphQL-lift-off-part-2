@@ -1,0 +1,46 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\am9549\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install --ignore-engines
+
+PATH: 
+  C:\Users\am9549\AppData\Roaming\ActiveState\bin;C:\Users\am9549\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\am9549\AppData\Local\Programs\Python\Python38-32\Lib\;C:\Users\am9549\AppData\Local\Programs\Python\Python38-32\DLLs\;C:\Users\am9549\AppData\Local\Programs\Python\Python38-32\;C:\Program Files (x86)\ActiveState Perl Dev Kit 8.2.1\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\ActiveState Perl Dev Kit 8.0.1\bin\;C:\Perl\site\bin;C:\Perl\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\PuTTY\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Docker Toolbox;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Users\am9549\AppData\Local\Continuum\anaconda3\Library\bin;C:\Users\am9549\AppData\Local\Continuum\anaconda3\Scripts;C:\Users\am9549\AppData\Local\Continuum\anaconda3\condabin;C:\MinGW\bin\make.exe;C:\perl\c\bin;C:\perl\perl\site\bin;C:\perl\perl\bin;C:\Program Files\nodejs\;C:\Users\am9549\.cargo\bin;C:\Users\am9549\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\am9549\AppData\Local\Programs\Python\Python38-32\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Users\am9549\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\am9549\.dotnet\tools;C:\Program Files\MySQL\MySQL Server 5.6\bin;C:\Program Files\heroku\bin;C:\Program Files\Git\cmd;C:\php\php7.3.2;C:\MinGW\bin\make.exe;C:\perl\perl\lib;C:\perl\perl\site\lib;C:\Program Files\Docker Toolbox;C:\Users\am9549\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  13.14.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:66:26)
+
+npm manifest: 
+  {
+    "name": "castronauts-server-complete",
+    "version": "1.0.0",
+    "description": "back-end demo app for Apollo's lift-off course",
+    "main": "src/index.js",
+    "scripts": {
+      "start": "nodemon src/index"
+    },
+    "dependencies": {
+      "apollo-server": "2.19.1",
+      "graphql": "15.4.0"
+    },
+    "devDependencies": {
+      "dotenv": "^8.2.0",
+      "nodemon": "^2.0.4"
+    },
+    "author": "Raphael Terrier @R4ph-t",
+    "license": "MIT",
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
